@@ -42,3 +42,21 @@ nav ul a:hover{
 .selected{	
     border-bottom-color: #570080;
 }
+
+/*** FOOTER ***/
+footer{
+	background-color: #2d2033;
+	color: #f4dcff;
+	display: flex;
+	justify-content: space-around;
+	padding: 25px;
+	font-size: 18px;
+}
+
+footer a{
+	color: #c851ff;
+}
+
+footer a:hover{
+	color: #e5acff;
+}
