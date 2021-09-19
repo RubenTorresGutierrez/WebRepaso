@@ -1,4 +1,4 @@
-/***  ***/
+/*** Rubén Torres ***/
 *{
 	margin: 0;
 	padding: 0;
@@ -24,13 +24,13 @@ nav ul{
 nav a{
 	padding: 20px;
     display: block;
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
 	color: #570080;
 }
 
 nav a:hover{
     background-color: #f4dcff;
-    border-bottom: 2px solid #570080;
+    border-bottom: 3px solid #570080;
 }
 
 .selected{	

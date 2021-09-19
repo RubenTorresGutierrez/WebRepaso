@@ -3,6 +3,7 @@
 body{
 	background: url('../img/background.jpg') no-repeat fixed center;
 	background-size: cover;
+	height: 1111px;
 }
 
 /*body{
@@ -15,9 +16,9 @@ body{
 	width: 100%;
 	position: relative;
     box-shadow: 0px 0px 30px black;	
+	background-image: url('../img/img3.jpg');
 	background-size: cover;
 	background-position: center;
-	background-image: url('../img/img3.jpg');
 	z-index: -1;
 }
 
@@ -31,4 +32,45 @@ body{
 	color: white;
 	font-size: 45px;
 	text-align: center;
+}
+
+/*** SECTION 1 ***/
+.carddiv{
+	display: flex;
+}
+
+.card{
+	background-color: rgb(251, 239, 255);
+	margin: 20px;
+	padding: 60px;
+	border-radius: 10px;
+	text-align: justify;
+	font-size: 18px;
+}
+
+.card > div{
+	margin: 20px;
+	width: 50%;
+}
+
+.card > div > h1{	
+	font-size: 26px;
+	color: #570080;
+	margin-bottom: 10px;
+}
+
+.card > div:first-child{
+	height: 50vh;
+	background-image: url('../img/img1.jpg');	
+	background-size: cover;
+	background-position: center;
+}
+
+/*** CONTAINER ***/
+.container{
+	display: flex;
+}
+
+.container > article{
+	width: 50%;
 }
