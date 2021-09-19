@@ -13,7 +13,13 @@ nav{
 	position: fixed;
 	width: 100%;
 	font-size: 18px;
-    box-shadow: 0px 0px 30px black;	
+    box-shadow: 0px 0px 30px black;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav img{
+	width: 170px;
 }
 
 nav ul{
@@ -21,14 +27,14 @@ nav ul{
 	display: flex;
 }
 
-nav a{
+nav ul a{
 	padding: 20px;
     display: block;
     border-bottom: 3px solid white;
 	color: #570080;
 }
 
-nav a:hover{
+nav ul a:hover{
     background-color: #f4dcff;
     border-bottom: 3px solid #570080;
 }
