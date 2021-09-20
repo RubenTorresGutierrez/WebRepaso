@@ -1,6 +1,8 @@
 /*** Rubén Torres ***/
 
 body{
+	/* Para darle un fondo degradado
+	del primer color al segundo */
 	background: linear-gradient(#f2d6ff, white);
 }
 

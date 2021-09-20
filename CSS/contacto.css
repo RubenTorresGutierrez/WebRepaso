@@ -96,7 +96,13 @@ form h2{
     text-align: right;
 }
 
+/* input[type="button"] para seleccionar
+los inputs que sean tipo button */
 .user_info input[type="button"]{
+    /* Cursor pointer para que al pasar
+    el ratón por encima el ratón cambie
+    y tenga un estilo para que se vea 
+    que se puede pulsar sobre ese sitio */
     width: 25%;
     padding: 10px;
     margin-top: 35px;

@@ -8,16 +8,22 @@ body{
 
 /*** BANNER ***/
 .banner{
-	height: 100vh;
+	/* La medida vh, sirve para asignar un tamaño en función de 
+	la resolución que se está cargando en el navegador.
+	En este caso, como quiero que el banner ocupe el 100%
+	del alto que se cargue, y por eso le pongo 100vh */
+	height: 100vh; 
 	width: 100%;
     box-shadow: 0px 0px 30px black;	
 	background-image: url('../img/img3.jpg');
 	background-size: cover;
 	background-position: center;
-	z-index: -1;
 }
 
 .bannertext{
+	/* He usado display flex para alinear los elementos
+	que le indique, y utilizo align-items para centrarlos, 
+	y justify-content para repartir el contenido */
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -52,6 +58,10 @@ body{
 }
 
 .carddiv > div:first-child{
+	/* Añadir una imagen de fondo en al primer 
+	div	y ponerle un alto de 50vh (tamaño respecto
+	a la resolución que carga el navegador),
+	que cubra todo el div y que salga centrada*/
 	height: 50vh;
 	background-image: url('../img/img1.jpg');	
 	background-size: cover;
@@ -69,7 +79,7 @@ body{
 	width: 50%;
 }
 
-/** First article **/
+/** Primer article **/
 
 .container .card > div:first-child{
 	height: 50vh;
@@ -79,6 +89,9 @@ body{
 }
 
 .container .card > div:last-child{
+	/* El último div tiene un display flex
+	Una dirección en columna, para que se alinee
+	en forma vertical en vez de horizontal */
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -90,6 +103,14 @@ body{
 }
 
 .container .card a{
+	/* Esto son los botones que llevan a
+	las otras páginas que tienen border-radius
+	para redondear los bordes, box-shadow para 
+	darle un efecto de profundidad, aunque se suela
+	usar para dar sombreado, y un transition ease-in
+	para que la animación sea más lenta al principio
+	y más rápida al final, si utilizase ease-out, funcionaría
+	al revés */
 	padding: 20px;
 	border-radius: 30px;
 	background-color: #ebc0ff;
@@ -127,7 +148,7 @@ body{
 	margin-left: 10px;
 }
 
-/** Second article **/
+/** Segundo article **/
 .container .card:last-child{
 	flex-direction: column;
 	justify-content: space-around;
